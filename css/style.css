@@ -1120,6 +1120,13 @@ h1 + .line{
   text-align: justify;
 }
 
+@media (max-width: 430px){
+  .experience-info{
+    left: 40%;
+    margin-top: -4rem;
+  }
+}
+
 
 
 /* 3.6 Projects */
@@ -1233,6 +1240,18 @@ h1 + .line{
   .project-category{
     position: absolute;
     bottom:1.2rem;
+  }
+}
+@media (max-width: 430px){
+  .project-box {
+    padding-bottom: 50%;
+  }
+  .project-category{
+    position: absolute;
+    bottom:1.2rem;
+  }
+  .bg-changer{
+    display: none;
   }
 }
 

@@ -31,7 +31,7 @@
             scrollingSpeed: 280,
             navigation:false,
             menu: '.navbar-nav',
-            anchors: ['home', 'about', 'projects', 'contact'],
+            anchors: ['home', 'about', 'skills', 'projects', 'contact'],
             afterRender: function(anchorLink, index){ 
               NavbarColor();
 
@@ -47,12 +47,12 @@
 
         function NavbarColor(){
          if ($('.pp-section.active').hasClass('navbar-is-white')){
-                $('.navbar-desctop').addClass('navbar-white');
+                $('.navbar-desktop').addClass('navbar-white');
                 $('.progress-nav').addClass('progress-nav-white');
                 $('.navbar-bottom').addClass('navbar-bottom-white');
             }
             else{
-                $('.navbar-desctop').removeClass('navbar-white');
+                $('.navbar-desktop').removeClass('navbar-white');
                 $('.progress-nav').removeClass('progress-nav-white');
                 $('.navbar-bottom').removeClass('navbar-bottom-white');
             }

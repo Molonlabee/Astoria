@@ -1145,12 +1145,30 @@ h1 + .line{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  line-height: 2;
+  line-height: 2;  
 }
 .skills-list li{
   font-weight: 600;
   font-size: 1.2rem;
   text-align: left;
+  transition: ease-in-out .5s;
+}
+.skills-list li:hover{
+  background: #ecff73;
+  color: #000;
+
+}
+
+@media (max-width: 990px){
+  .skills{
+    flex-direction: column;
+  }
+  .skills-list li{
+    text-align: center;
+  }
+  .br{
+    display: none;
+  }
 }
 
 @media (max-width: 430px){
